@@ -59,6 +59,7 @@
 .nav-address {
     padding: 8px;
 
+
 }
 
 .nav-search {
@@ -135,26 +136,20 @@ input {
 
 }
 
-
-
 .country {
+    height: 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
-    /* margin-bottom: 0px; */
+
     padding-top: 9px;
     padding-bottom: 9px;
-    padding-left: 2px;
-    padding-right: 2px;
 
 }
 
 .ind-flag {
-    margin-left: 10px;
-    padding-top: 10px;
-
-    /* padding: 15px 0px 0px 5px; */
-
+    margin-left: 8px;
+    
 }
 
 .search-select2 {
@@ -164,11 +159,13 @@ input {
     outline: none;
     font-size: 0.95rem;
     font-weight: bold;
-    margin-bottom: 1px;
+    padding-bottom: 1.6px;
+
 }
 
 .nav-signin {
     padding: 7px;
+
 }
 
 .nav-first {
@@ -202,11 +199,11 @@ input {
     display: flex;
     align-items: center;
     color: white;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .panel-menu {
-    padding: 6px;
+    padding: 7px;
     display: flex;
     align-items: center;
 
@@ -229,14 +226,13 @@ input {
 .panel-opt p {
     display: inline;
     /* padding: 9px; */
-    padding: 9px 4px 9px 3.5px;
+    padding: 9px 6px 9px 6px;
 }
 
 .panel-opt {
-    width: 80%;
+    width: 83.5%;
     font-size: 0.9rem;
     font-weight: 500;
-
 
 }
 
@@ -244,5 +240,6 @@ input {
     font-size: 0.9rem;
     font-weight: 500;
     padding: 8px;
+   
 
 }
