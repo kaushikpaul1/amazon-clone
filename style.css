@@ -72,10 +72,12 @@
     /* border-radius: 4px; */
 
 }
+
 .nav-search:hover {
     border: 3.2px solid #febd68;
     border-radius: 9px;
     transition: none;
+
 
 }
 
@@ -150,8 +152,8 @@ input {
 .ind-flag {
     margin-left: 10px;
     padding-top: 10px;
-   
-/* padding: 15px 0px 0px 5px; */
+
+    /* padding: 15px 0px 0px 5px; */
 
 }
 
@@ -162,28 +164,85 @@ input {
     outline: none;
     font-size: 0.95rem;
     font-weight: bold;
-   margin-bottom: 1px;
+    margin-bottom: 1px;
 }
-.nav-signin{
-padding: 7px;
+
+.nav-signin {
+    padding: 7px;
 }
-.nav-first{
-    font-size:0.7rem ;
+
+.nav-first {
+    font-size: 0.7rem;
     font-weight: 400;
 
 }
-.nav-second{
+
+.nav-second {
     font-size: 0.9rem;
     font-weight: 700;
 }
-.nav-return{
+
+.nav-return {
     padding: 7px;
 }
-.nav-cart i{
-font-size: 30px;
+
+.nav-cart i {
+    font-size: 30px;
 }
-.nav-cart{
+
+.nav-cart {
     padding: 8px;
     font-size: 0.9rem;
     font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.panel-menu {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+
+}
+
+.panel-menu i {
+    font-size: 1.2rem;
+    /* padding-left: 1px; */
+    /* margin-left: 1px; */
+
+
+}
+
+.all {
+    padding-left: 6px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.panel-opt p {
+    display: inline;
+    /* padding: 9px; */
+    padding: 9px 4px 9px 3.5px;
+}
+
+.panel-opt {
+    width: 80%;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 8px;
+
 }
